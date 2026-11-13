@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-display: 'Cormorant Garamond', 'Noto Serif Myanmar', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', 'Noto Sans Myanmar', system-ui, sans-serif;
+    --font-myanmar-serif: 'Noto Serif Myanmar', 'Noto Sans Myanmar', serif;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FBF6EA;
+    color: #1F170D;
+  }
+
+  html.dark body {
+    background-color: #120D07;
+    color: #F4EAD2;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-myanmar-serif {
+  font-family: var(--font-myanmar-serif);
+}
+
+/* Sacred gold hairline & subtle metallic shimmer utilities */
+.gold-hairline {
+  border-color: rgba(180, 130, 30, 0.24);
+}
+
+.dark .gold-hairline {
+  border-color: rgba(230, 184, 76, 0.20);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #F6DC88 0%, #D4A02C 52%, #B57E14 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

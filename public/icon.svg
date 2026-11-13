@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="96" fill="#1C150E"/>
+  <defs>
+    <linearGradient id="goldLeaf" x1="96" y1="96" x2="416" y2="416" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F5D57A"/>
+      <stop offset="50%" stop-color="#D4A02C"/>
+      <stop offset="100%" stop-color="#9A6B10"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="154" stroke="url(#goldLeaf)" stroke-width="26"/>
+  <circle cx="256" cy="256" r="118" stroke="url(#goldLeaf)" stroke-width="6" opacity="0.65"/>
+  <circle cx="256" cy="256" r="42" stroke="url(#goldLeaf)" stroke-width="16"/>
+  <circle cx="256" cy="256" r="14" fill="url(#goldLeaf)"/>
+  <g stroke="url(#goldLeaf)" stroke-width="14" stroke-linecap="round">
+    <line x1="256" y1="68" x2="256" y2="214"/>
+    <line x1="256" y1="298" x2="256" y2="444"/>
+    <line x1="68" y1="256" x2="214" y2="256"/>
+    <line x1="298" y1="256" x2="444" y2="256"/>
+    <line x1="123" y1="123" x2="226" y2="226"/>
+    <line x1="286" y1="286" x2="389" y2="389"/>
+    <line x1="389" y1="123" x2="286" y2="226"/>
+    <line x1="226" y1="286" x2="123" y2="389"/>
+  </g>
+</svg>

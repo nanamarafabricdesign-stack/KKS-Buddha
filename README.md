@@ -1,11 +1,33 @@
-<div align="center">
+# KKS BUDDHA
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+**Theravāda Tipiṭaka, Jātaka & Daily Dhamma Sanctuary (Pāḷi · မြန်မာ · English)**
 
-  <h1>Built with AI Studio</h2>
+> ဘားမားပါတိတ် BURMA BATIKမှ ပူဇော်ပါသည်
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+KKS BUDDHA is a modern **Gold Mode** Web & Progressive Web App (PWA) for studying authentic Theravāda Buddhist scriptures in **Pāḷi** (both Myanmar script and Roman diacritics), **Burmese**, and **English**.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Key Features
 
-</div>
+- **Complete Tipiṭaka & Chaṭṭha Saṅgāyanā Canon Index**
+  - **Vinaya Piṭaka (5 Books)**: Pārājika, Pācittiya, Mahāvagga, Cūḷavagga (First & Second Councils), and Parivāra.
+  - **Sutta Piṭaka (5 Nikāyas)**: Dīgha, Majjhima, Saṃyutta, Aṅguttara, and Khuddaka (15 books including Dhammapada, Udāna, Itivuttaka, Sutta Nipāta, and Jātaka).
+  - **Abhidhamma Piṭaka (7 Treatises)**: Dhammasaṅgaṇī, Vibhaṅga, Dhātukathā, Puggalapaññatti, Kathāvatthu, Yamaka, and Mahāpaṭṭhāna (24 Conditional Relations).
+  - **Ten Great Jātakas (မဟာနိပါတ် ၁၀ ဘွဲ့) & Parittas**: Authentic Pāḷi verses, Ratanattaya Vandanā, Maṅgala, Karaṇīya Mettā, Ratana, and the Eleven Great Parittas.
+- **Trilingual Study Reader**: Switch between **မြန်မာ + Roman Pāḷi**, **မြန်မာပါဠိ**, or **Roman Pāḷi**, alongside Burmese and English expositions, adjustable font size, copy-to-clipboard, and local bookmarks.
+- **Fast Search**: Instant search across Pāḷi (both scripts, diacritic-insensitive), Burmese, and English titles, passages, and tags.
+- **Daily Dhamma Notifications**: Scheduled daily alerts via browser/service-worker notifications and in-app Golden Toast reminders.
+- **Sunlit Gold & Obsidian Gold Themes**: Light and dark gold palettes with offline PWA support.
+
+## Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Production Build & Type Check
+
+```bash
+npm run lint
+npm run build
+```

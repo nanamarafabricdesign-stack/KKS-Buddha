@@ -1,0 +1,6 @@
+{
+  "name": "KKS BUDDHA",
+  "description": "ထေရဝါဒဗုဒ္ဓဘာသာ ပိဋကတ်သုံးပုံ၊ ဇာတ်တော်များနှင့် နေ့စဉ်တရားတော်များ — Theravada Tipitaka, Jataka Tales & Daily Dhamma in Burmese & English.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
